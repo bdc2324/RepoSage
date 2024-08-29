@@ -1,0 +1,13 @@
+[IMAGES]
+
+[TEXT]
+
+[PAGES.HOME]
+    PATH = "src/app.py"
+    NAME = "Homepage Test"
+    TITLE = "Home"
+    SUBTITLE = "Future content here"
+
+[THEME]
+
+[SERVER]
