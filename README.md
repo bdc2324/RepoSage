@@ -1,4 +1,3 @@
 # RepoSage
 
-# tool for repo QA
- 
+Chat interface tool for repo QA

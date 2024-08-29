@@ -4,14 +4,12 @@ import toml
 
 import streamlit as st
 
-
 CONFIG_PATH = os.path.join(".streamlit", "config.toml")
 config = toml.load(CONFIG_PATH)
 
 def chat_interface():
     st.text_area(label = "Paste Link Here")
     st.button(label = "Submit")
-
 
 def main():
     """
