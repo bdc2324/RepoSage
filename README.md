@@ -1,3 +1,3 @@
 # RepoSage
 
-Chat interface tool for repo QA
+Chat interface to summarize and ask questions about your codebase

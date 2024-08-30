@@ -4,6 +4,8 @@ import toml
 
 import streamlit as st
 
+#from github import Github
+
 CONFIG_PATH = os.path.join(".streamlit", "config.toml")
 config = toml.load(CONFIG_PATH)
 
@@ -16,7 +18,8 @@ def main():
     """
     st.set_page_config(
         page_title = config["PAGES"]["HOME"]["NAME"],
-        layout = "wide"
+        page_icon = config["IMAGES"]["LOGO"],
+        layout = "centered"
     )
     st.title(config["PAGES"]["HOME"]["TITLE"])
     #st.write(config["PAGES"]["HOME"]["SUBTITLE"])

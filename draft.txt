@@ -1,0 +1,16 @@
+"""""
+def fetch_repo_files(repo_url):
+    g = Github("your_access_token")
+    repo_name = repo_url.split('/')[-1]
+    repo = g.get_repo(repo_name)
+    files = repo.get_contents("")
+    file_list = []
+
+    while files:
+        file_content = files.pop(0)
+        if file_content.type == "dir":
+            files.extend(repo.get_contents(file_content.path))
+        else:
+            file_list.append(file_content)
+    return file_list
+"""

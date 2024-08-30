@@ -1,13 +1,18 @@
 [IMAGES]
+    LOGO = "./imgs/RepoSageLogo1.png" #prototype logo
 
 [TEXT]
 
 [PAGES.HOME]
     PATH = "src/app.py"
     NAME = "Homepage Test"
-    TITLE = "Home"
+    TITLE = "RepoSage Prototype v1"
     SUBTITLE = "Future content here"
 
 [THEME]
+    BASE = "dark"
+    PRIMARYCOLOR = "#aa7a16"
+    BACKGROUNDCOLOR = "#2c7106"
+    FONT = "monospace"
 
 [SERVER]
